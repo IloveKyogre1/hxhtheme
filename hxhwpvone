@@ -139,7 +139,7 @@
   /*
     Scrollbar Colors
   */
-  --scrollbar-color: rgba(25, 255, 255, 1);
+  --scrollbar-color: rgba(73, 0, 0, 1);
 
   /*
     Unread Message Divider
