@@ -36,7 +36,7 @@
   /*
     Home Icon Image
   */
-  --home-icon-image: url(https://i.pinimg.com/originals/47/e2/9e/47e29e1978b167f138d61148b2c6d50c.jpg);
+  --home-icon-image: url(https://i.pinimg.com/originals/d2/0c/6a/d20c6abf7819e19eb0087bb71f8e9ae4.jpg);
 
   /*
     Change your friends icon image position
@@ -46,7 +46,7 @@
   /*
     Change your friends icon image zoom
   */
-  --home-icon-image-zoom: 75%;
+  --home-icon-image-zoom: 100%;
 
   /*
     Server Listing Width
