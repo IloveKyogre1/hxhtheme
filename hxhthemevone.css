@@ -46,7 +46,7 @@
   /*
     Change your friends icon image zoom
   */
-  --home-icon-image-zoom: 100%;
+  --home-icon-image-zoom: 75%;
 
   /*
     Server Listing Width
@@ -55,7 +55,7 @@
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 126px;
+  --server-listing-width: 62px;
 
   /*
     Font Size
@@ -65,14 +65,14 @@
   /*
     Mention colors
   */
-  --mention-color: rgba(138, 8, 8);
+  --mention-color: rgba(51,0,0);
   --mention-sider: rgba(250, 255, 255, 1);
-  --mention-hover-color: rgba(250, 166, 26, 0.08);
+  --mention-hover-color: rgba(51, 0, 0, 1);
 
   /*
     Server category hover color
   */
-  --category-hover-color: rgb(60, 202, 138);
+  --category-hover-color: rgb(75,0,0);
 
   /*
     Change the unread server animation.
@@ -116,12 +116,12 @@
   /*
     Message Box Transparency
   */
-  --message-box-transparency: rgba(0, 0, 0, 0.6);
+  --message-box-transparency: rgba(51, 0, 0, 0.4);
 
   /*
     Embed Background Transparency
   */
-  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+  --embed-background-transparency: rgba(102, 0, 0, 0.6);
 
   /*
     Message Hover Buttons
@@ -131,7 +131,7 @@
   /*
     Context Menu Transparency
   */
-  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+  --context-menu-transparency: rgba(51, 0, 0, 0.8);
 
   /*
     Add Server / Discovery Icon
@@ -154,14 +154,14 @@
   /*
     Unread Message Divider
   */
-  --unread-message-divider-color: #f04747;
+  --unread-message-divider-color: #330000;
   --unread-message-divider-font-color: #fff;
 
   /*
     New Messages Bar Color
   */
-  --new-messages-bar-background-color: #7289da;
-  --new-messages-bar-font-color: #fff;
+  --new-messages-bar-background-color: #fff;
+  --new-messages-bar-font-color: ##330000;
 
   /*
     Emoji Menu
@@ -197,8 +197,8 @@
   /*
     Reactions
   */
-  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
-  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-background-color: rgba(51, 0, 0, 0);
+  --reaction-emoji-border-color: 1px rgb(255,255,255);
   --reaction-emoji-hover-background-color: rgba(51,0,0, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 1);
 }
