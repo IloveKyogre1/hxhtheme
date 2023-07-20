@@ -1,0 +1,194 @@
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+/*
+  To make editing this theme easier I recommend using Notepad++
+  you can download it for free here https://notepad-plus-plus.org/download/
+*/
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+
+:root {
+  /*
+    Theme Background
+  */
+  --theme-background-image: url(https://lh5.googleusercontent.com/edDGzsEujxAxNzFuY5tajZDMgXS9s9EnJnYW7JMMOCSH7LUeCOT13Ldsi1Otp4GnpTcjHdhf6ymAkbrM-yiRrVwl6TFOKKk6ttaZ-vCE_DgTIgZcO6xL92OcmaUPXnmv8przl2bRm4tOdJUpuWaAfVL8OZaUtwnM-gRxAKmLuLqPN2AuebactK9GUPnUnA);
+
+  /*
+    Main Theme Color
+  */
+  --main-theme-color: rgb(42, 82, 190n;
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgba(42, 82, 190, 0.2);
+
+  /*
+    Home Icon Image
+  */
+  --home-icon-image: url(https://static.wikia.nocookie.net/villains/images/e/eb/600978674dbcecf9e388a68fbd5092bc97d60b26_hq.jpg/revision/latest?cb=20170122232510);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 100%;
+
+  /*
+    Server Listing Width
+    Single Column:  62px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+  */
+  --server-listing-width: 62px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
+
+  /*
+    Mention colors
+  */
+  --mention-color: rgba(240, 248, 255, 1);
+  --mention-sider: rgb(240, 248, 255);
+  --mention-hover-color: rgba(240, 248, 255, 1);
+
+  /*
+    Server category hover color
+  */
+  --category-hover-color: rgb(42, 82, 190);
+
+  /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+  */
+  --unread-server-animation: rgb(240, 248, 255);
+
+  /*
+    Video / Screen share buttons
+  */
+  --video-screen-button-background-color: rgba(42, 82, 190, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(42, 82, 190, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  /*
+    Role Title Color
+  */
+  --member-listing-role-color: var(--main-theme-color);
+
+  /*
+    Small User Popout
+  */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(240, 248, 255, 0.6);
+  --small-user-popout-background-image-position: center;
+
+  /*
+    Big User Popout
+  */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(240, 248, 255, 0.6);
+  --big-user-popout-background-image-position: center;
+
+  /*
+    Code Markup
+  */
+  --code-markup-background-color: rgba(240, 248, 255, 0.6);
+  --code-markup-border: 1px solid transparent;
+
+  /*
+    Message Box Transparency
+  */
+  --message-box-transparency: rgba(32, 58, 82, 0.4);
+
+  /*
+    Embed Background Transparency
+  */
+  --embed-background-transparency: rgba(32, 58, 82, 0.6);
+
+  /*
+    Message Hover Buttons
+  */
+  --message-hover-buttons-background: rgba(32, 58, 82, 0.1);
+
+  /*
+    Context Menu Transparency
+  */
+  --context-menu-transparency: rgba(32, 58, 82, 0.8);
+
+  /*
+    Add Server / Discovery Icon
+  */
+  --add-discover-icon-transparency: rgba(32, 58, 82, 0.15);
+  --add-discover-icon-color: #2A52BE;
+
+  /*
+    Channel Limit Number Color
+  */
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(42, 82, 190, 0.1);
+  --channel-limit-background-right: rgba(42, 82, 190, 0.2);
+
+  /*
+    Scrollbar Colors
+  */
+  --scrollbar-color: rgba(32, 58, 82, 1);
+
+  /*
+    Unread Message Divider
+  */
+  --unread-message-divider-color: #f0f8ff;
+  --unread-message-divider-font-color: #2A52BE;
+
+  /*
+    New Messages Bar Color
+  */
+  --new-messages-bar-background-color: #f0f8ff;
+  --new-messages-bar-font-color: #2A52BE;
+
+  /*
+    Emoji Menu
+  */
+  --emoji-menu-background-color: rgba(240, 248, 255, 0.6);
+  --emoji-menu-sider-background-color: rgba(42, 82, 190, 1);
+  --emoji-menu-server-header-background-color: rgba(32, 58, 82, 0.8);
+  --emoji-menu-bottom-bar-background-color: white;
+  --emoji-menu-search-bar-background-color: rgba(29, 87, 255, 1);
+
+  /*
+    Message Search
+  */
+  --message-search-menu-background-color: rgba(240, 248, 255, 0.8);
+  --message-search-container-background-color: rgba(29, 87, 255, 1);
+  --message-search-result-background-color: rgba(32, 58, 82, 1);
+
+  /*
+    Channel colors
+  */
+  --text-voice-channel-color: rgb(240, 248, 255);
+  --text-voice-channel-hover-color: rgb(29, 87, 255);
+  --text-voice-channel-selected-text-color: rgb(32, 58, 82);
+  --unread-text-channel-color: rgb(42, 82, 190);
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+
+  /*
+    Folders
+  */
+  --folder-background-color: rgb(240, 248, 255;
+  --expanded-folder-background-color: transparent;
+
+  /*
+    Reactions
+  */
+  --reaction-emoji-background-color: rgba(240, 248, 255);
+  --reaction-emoji-border-color: 1px rgb(42, 82, 190);
+  --reaction-emoji-hover-background-color: rgba(29, 87, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(29, 87, 255, 1);
+}
