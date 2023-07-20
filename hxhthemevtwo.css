@@ -26,12 +26,12 @@
   /*
     Main Theme Color
   */
-  --main-theme-color: rgb(102,0,0);
+  --main-theme-color: rgb(0,0,0);
 
   /*
     Main Theme Transparency
   */
-  --theme-transparency: rgba(0, 0, 0, 0.6);
+  --theme-transparency: rgba(0, 0, 0, 0);
 
   /*
     Home Icon Image
