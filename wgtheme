@@ -11,7 +11,7 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://lh5.googleusercontent.com/edDGzsEujxAxNzFuY5tajZDMgXS9s9EnJnYW7JMMOCSH7LUeCOT13Ldsi1Otp4GnpTcjHdhf6ymAkbrM-yiRrVwl6TFOKKk6ttaZ-vCE_DgTIgZcO6xL92OcmaUPXnmv8przl2bRm4tOdJUpuWaAfVL8OZaUtwnM-gRxAKmLuLqPN2AuebactK9GUPnUnA);
+  --theme-background-image: url('https://wallpapercave.com/wp/wp7517344.png');
 
   /*
     Main Theme Color
@@ -26,7 +26,7 @@
   /*
     Home Icon Image
   */
-  --home-icon-image: url(https://static.wikia.nocookie.net/villains/images/e/eb/600978674dbcecf9e388a68fbd5092bc97d60b26_hq.jpg/revision/latest?cb=20170122232510);
+  --home-icon-image: url('https://static.wikia.nocookie.net/villains/images/e/eb/600978674dbcecf9e388a68fbd5092bc97d60b26_hq.jpg/revision/latest?cb=20170122232510');
 
   /*
     Change your friends icon image position
